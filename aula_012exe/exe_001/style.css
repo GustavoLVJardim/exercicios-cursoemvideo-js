@@ -23,6 +23,13 @@ body{
 
 }
 
+
+#img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
 .footer-container{
     text-align: center;
     font-style: italic;
