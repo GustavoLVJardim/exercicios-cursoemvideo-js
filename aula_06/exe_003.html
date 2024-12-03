@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Primeira Soma</title>
+        <style>
+            body {
+                background-color: rgb(70, 142, 236);
+                color: white;
+                font: normal 20pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Primeira Soma!!</h1>
+        <p>A resposta estará aqui abaixo:</p>
+        <p id="resposta"></p>
+    <script>
+        let num1 = parseFloat(prompt("Digite um numero:"))
+        let num2 = parseFloat(prompt("Digite outro numero:"))
+        let result = num1 + num2
+        document.getElementById("resposta").innerHTML = `O resultado da soma é: ${result}`
+    </script>
+    </body>
+</html>
